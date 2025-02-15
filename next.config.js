@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true, // App Router (appディレクトリ) を有効化
-  },
-  output: 'standalone', // Vercelで正しく動作するように
+  output: 'export', // Next.jsを静的サイトとして出力
 };
 
 module.exports = nextConfig;
