@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Next.jsを静的サイトとして出力
+  output: 'standalone', // 静的ではなくNode.jsサーバーとして動作
 };
 
 module.exports = nextConfig;
